@@ -11,3 +11,101 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main-div{
+  background-color: #6781AB;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+.todo-div {
+  width: 30%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:#ffffff;
+  border-radius: 15px;
+  min-height: 80vh;
+  box-shadow: 5px 5px 15px;
+}
+.todo-heading {
+  background-color: #886BAA;
+  color: #fff;
+  font-size: xxx-large;
+}
+
+.todo-input {
+  border: none;
+  border-bottom: 2px solid #8566aa;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  outline: none;
+  width: 60%;
+  height: 30px;
+  color: #8566aa;
+}
+
+.todo-button {
+  width: 45px;
+  min-height: 35px;
+  border-radius: 50%;
+  outline: none;
+  background-color: #8566aa;
+  font-size: 40px;
+  color: aliceblue;
+  border: none;
+  box-shadow: 5px 5px 15px;
+  margin-left: 10px;
+}
+.todo-button:hover {
+  background-color: #20bf6b;
+}
+
+.todo-main-list {
+  margin-top: 30px;
+}
+
+.todo-list {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #8566aa;
+}
+.todo-style {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+i.fa.fa-times {
+  position: relative;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #8566aa;
+  color: #ffffff;
+  justify-content: center;
+  display: flex;
+  margin: 0px 30px 0px 0px;
+  box-shadow: 5px 5px 16px;
+  padding: 3px 2px 2px 2px;
+}
+i.fa.fa-times:hover {
+  background-color: darkred;
+}
+@media (max-width:900px){
+  .todo-div {
+    width: 50%;
+  }
+}
+@media (max-width:600px){
+  .todo-div {
+    width: 75%;
+  }
+}
